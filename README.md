@@ -1,4 +1,4 @@
 # Full-Stack-App
 work in progress...
-
-45:48
+front-end is made with Django
+Back-end is made with React
