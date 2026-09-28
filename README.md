@@ -2,4 +2,4 @@
 work in progress...
 front-end is made with Django
 Back-end is made with React
-1:10:20
+1:26
