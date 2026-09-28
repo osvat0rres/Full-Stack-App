@@ -1,12 +1,18 @@
+/*
+    this code is meant to create a reusable Login/Register form in React
+    It lets user enter a username and password, send that infromation to 
+    the django API, and handles the login/register reponse
+*/
+
 import { useState } from "react";
-import api from "..api"
+import api from "../>api"
 import { useNavigate } from "react-router-dom";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
 
 
 function Form({route, method}){
-    const [username, setUsename ] = userState("")
-    const [password, setPassword] = useState("")
+    const [username, setUsername ] = useState("");
+    const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false)
     const navigate = useNavigate()
 
