@@ -1,3 +1,9 @@
+/*
+ This file creates a central Axios API client for the React application.
+ its job is to make request to your Django backend and automatically attach the 
+ user's JWT access token.
+*/
+
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
