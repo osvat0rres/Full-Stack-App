@@ -1,15 +1,24 @@
 # Full-Stack-App
-A fill-stack web application built with React and Django. This project is a small like social media website where users can login and post a pots so other users can see them.
 
-##Feature
-- user authentication
-- API-based
+A full-stack web application built with React and Django. This project is a small social media-style website where users can create an account, log in, and create posts that other users can view.
+
+## Features
+- User authentication
+- Create and view posts
+- API-based communication between the frontend and backend
 - Responsive frontend interface
-#Technologies
 
-##Frontend
+# Technologies
+## Frontend
 - React
 - JavaScript
 - HTML
 - CSS
-  
+## Backend
+- Python
+- Django
+- Django REST Framework
+##Tools
+- Git
+- GitHub
+- Axios
